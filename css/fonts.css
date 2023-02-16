@@ -1,0 +1,19 @@
+
+
+/* regola-book-200 */
+@font-face {
+    font-family: 'Regola-Book';
+    font-style: normal;
+    font-weight: 200;
+    src: local(''),
+         url('../fonts/regola-book.ttf') format('truetype'), /* Safari, Android, iOS */
+  }
+
+  /* regola-book-200 */
+@font-face {
+     font-family: 'Regola-Book';
+     font-style: normal;
+     font-weight: 200;
+     src: local(''),
+          url('../fonts/regola-book.ttf') format('truetype'), /* Safari, Android, iOS */
+   }
