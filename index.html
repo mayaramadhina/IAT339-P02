@@ -12,16 +12,15 @@
 <body>
 
     <header>
-        <h1>Brand Here</h1>
+        <h1>Rooted.</h1>
         <nav>
             <a href="index.html" class="nav-main-item">Style Guide</a>
-            <a href="products.html" class="nav-main-item">Product Sample Page</a>
-            <a href="cart.html" class="nav-main-item">Cart Sample Page</a>
+            <a href="wireframes.html" class="nav-main-item">Wireframes Page</a>
         </nav>
     </header>
 
 
-    <p>P02 Process Check - Style guide for brand</p>
+    <p>P02 Process Check - Style guide for Rooted.</p>
 
 
     <section id="interactive-elements">
@@ -29,27 +28,88 @@
 
         <div class="border">
             <h3>An in-text link</h3>
+            <p>
+                <a href="https://www.lipsum.com/">Placeholder text for in-text link</a>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis nulla ex. Duis cursus justo et
+                finibus
+                molestie. Quisque at purus non lacus sollicitudin maximus quis eu metus. Sed ut nisi metus.
+            </p>
         
         </div>
 
         <div class="border">
             <h3>A navigation link</h3>
+
+            <h4>CSS selector:</h4>
+            <p>.nav-main-item</p>
+    
+            <h4>Sample code:</h4>
+            <code>&lt;a href="#" class="nav-main-item"&gt;nav button&lt;/a&gt;</code>
+    
+            <h4>Rendered element:</h4>
             <nav>
+                <a href="#" class="nav-main-item">about</a>
             </nav>
         </div>
 
         <div class="border">
             <h3>Submit and reset button for forms</h3>
+
+            <h4>CSS selector:</h4>
+            <p>.container-item</p>
+
+            <h4>Sample code:</h4>
+            <code>&lt;a href="#" class="container"&gt;Submit/Reset Button&lt;/a&gt;</code>
+
+            <h4>Rendered element:</h4>
+
+            <div class="container">
+                <div class="container-item">
+                    <button type="button" href="#">submit</button>
+                    <!-- <input class="button" type="submit" value="Submit"> -->
+                </div>
+
+                <div class="container-item">
+                    <button type="reset" href="#">reset</button>
+                </div>
+            </div>
         </div>
 
 
         <div class="border">
 
             <h3>Text Input field and labels</h3>
+            <form>
+                <fieldset>
+                    <label>
+                        Username <input type="text" name="username" placeholder="enter username">
+                    </label>
+
+                    <label>
+                        Email <input type="email" name="email" placeholder="enter email">
+                    </label>
+
+                    <label>
+                        Password <input type="password" name="password" placeholder="enter password">
+                    </label>
+                </fieldset>
+            </form>
+
         </div>
 
         <div class="border">
             <h3>Radio button input field and labels</h3>
+            <div class="radio-button">
+                <input type="radio" name="number" value="1" checked> Radio #1
+            </div>
+
+            <div class="radio-button">
+                <input type="radio" name="number" value="2"> Radio #2
+            </div>
+
+            <div class="radio-button">
+                <input type="radio" name="number" value="3"> Radio #3
+            </div>
 
         </div>
 
@@ -66,16 +126,28 @@
 
             <h3>Four levels of headings</h3>
 
+            <h1>Header 1</h1>
+            <h2>Header 2</h2>
+            <h3>Header 3</h3>
+            <h4>Header 4</h4>
+
         </div>
 
         <div class="border">
             <h3>Paragraph element</h3>
-
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis nulla ex. Duis cursus justo et
+                finibus
+                molestie. Quisque at purus non lacus sollicitudin maximus quis eu metus. Sed ut nisi metus.</p>
 
         </div>
 
         <div class="border">
             <h3>Numbered list</h3>
+            <ol>
+                <li>List item</li>
+                <li>List item</li>
+                <li>List item</li>
+            </ol>
         </div>
     </section>
 
@@ -85,11 +157,18 @@
 
         <div class="border">
             <h3>Main Navigation</h3>
-            
+            <nav>
+                <a href="#" class="nav-main-item">about</a>
+                <a href="#" class="nav-main-item">products</a>
+                <a href="#" class="nav-main-item">news</a>
+                <a href="#" class="nav-main-item">contact</a>
+            </nav>
         </div>
 
         <div class="border">
             <h3>Product/Service Listing</h3>
+            
+            <h1>Our Products</h1>
 
         </div>
 
@@ -98,6 +177,49 @@
         <form class="border">
 
             <h3>Payment Form</h3>
+
+            <fieldset class="payment-form-container">
+                <!-- <legend>Payment Form</legend> -->
+                <label>
+                    Name on Card:
+                    <input type="text" name="card-name">
+                </label>
+
+                <label>
+                    Card Number:
+                    <input type="number" name="card-number">
+                </label>
+
+                <label>
+                    Exp. Date:
+                    <input type="date" name="date">
+                </label>
+
+                <label>
+                    CSC:
+                    <input type="number" name="number">
+                </label>
+
+                <div class="radio-button-container">
+                    <div class="radio-button">
+                        <input type="radio" name="card-type" value="mastercard" checked> Mastercard
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" name="card-type" value="visa"> Visa
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" name="card-type" value="debit"> Debit
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" name="card-type" value="paypal"> PayPal
+                    </div>
+
+                </div>
+                <button name="submit">
+                    Submit Payment
+                </button>
+
+            </fieldset>
             
         </form>
 
@@ -109,11 +231,36 @@
     </section>
 
     <section id="citations">
+        <div class="border">
+
+        <h2>Basic Branding Idea</h2>
+        <img src="img/What.jpg" alt="brand description" style="width: 70em;"></a>
+
+        </div>
+    </section>
+
+    <section id="citations">
+        <div class="border">
+        <h2>Brand Component</h2>
+        <img src="img/Guide.jpg" alt="brand guide" style="width: 70em;"></a>
+        </div>
+    </section>
+
+    <section id="citations">
+        <div class="border">
         <h2>Citations</h2>
 
         <ul>
+
+            <li>Candle photos: https://www.behance.net/gallery/83146313/Esser-Studio-Candle-collection</li>
+            <li>Ceramic photos: https://www.khayni.com/collections/all-ceramics</li>
+            <li>Art direction imageries 1 photos: https://us.inbedstore.com/blogs/journal/laura-schoorl-oakland-ca?shpxid=a9d3a65a-23df-4819-9769-446a4f423dbb</li>
+            <li>Art direction imageries 2 photos: https://holliefernando.com</li>
+            <li>Art direction imageries 3 photos: https://www.creativereview.co.uk/hollie-fernando-photographer/</li>
+            <li>Code help: https://www.w3schools.com</li>
             
         </ul>
+        </div>
 
     </section>
 
