@@ -17,3 +17,49 @@
      src: local(''),
           url('../fonts/regola-book.ttf') format('truetype'), /* Safari, Android, iOS */
    }
+
+   @font-face {
+     font-family: 'RegolaMed';
+     src: url(fonts/regola-medium.ttf);
+   }
+   
+   @font-face {
+     font-family: 'RegolaBook';
+     src: url(fonts/regola-book.ttf);
+   }
+   
+   @font-face {
+     font-family: 'Regola';
+     src: url(fonts/regola-regular.ttf);
+   }
+   
+   @font-face {
+     font-family: 'RegolaLight';
+     src: url(fonts/regola-light.ttf);
+   }
+ 
+   @font-face {
+     font-family: 'RegolaLight';
+     src: url(fonts/regola-light.ttf);
+   }
+ 
+   @font-face {
+     font-family: 'AvenirLt';
+     src: url(fonts/avenir-light.ttf);
+   }
+ 
+   @font-face {
+     font-family: 'AvenirLtO';
+     src: url(fonts/avenir-lightOblique.ttf);
+   }
+ 
+   @font-face {
+     font-family: 'AvenirRoman';
+     src: url(fonts/avenir-roman.ttf);
+   }
+ 
+   @font-face {
+     font-family: 'AvenirMed';
+     src: url(fonts/avenir-medium.ttf);
+   }
+ 
