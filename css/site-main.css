@@ -1,17 +1,30 @@
 body {
     font-family: 'AvenirLt', sans-serif;
     font-weight: lighter;
-    padding: 1rem;
-    margin: 2rem;
     color: rgb(60, 66, 69);
 }
 
 header {
+    font-weight: lighter;
+    background-image: url('../img/leavesBG.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+}
+
+#header-container{
     display: flex;
     align-items: baseline;
-    /* margin: 2rem; */
     justify-content: space-between;
-    font-weight: lighter;
+    padding: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+#content {
+    padding: 1rem;
+    margin: 2rem;
 }
 
 h1 {
@@ -75,9 +88,7 @@ a {
     font-weight: 500;
     color: #2A372A;
     text-decoration: none;
-
     transition: color 0.1s;
-
 }
 
 a:active,
@@ -86,3 +97,5 @@ a:focus {
     color: #606721;
     text-decoration: underline;
 }
+
+

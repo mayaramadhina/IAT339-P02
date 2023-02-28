@@ -1,0 +1,14 @@
+.products-container {
+    display: flexbox;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.product-item {
+    width: 30%;
+}
+
+img {
+    width: 10%;
+}
