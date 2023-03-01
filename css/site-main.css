@@ -8,7 +8,7 @@ header {
     font-weight: lighter;
     background-image: url('../img/leavesBG.png');
     background-size: cover;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     width: 100%;
     height: 300px;
 }
@@ -98,4 +98,23 @@ a:focus {
     text-decoration: underline;
 }
 
+button {
+    font-family: 'Regola',sans-serif;
+    padding: 1rem;
+
+    margin: 1rem;
+    border: 1.4px solid #DCD3C3;
+    border-radius: 0.3rem;
+    color: #2A372A;
+    background-color: white;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+
+button:hover,
+button:focus,
+button:active {
+    background-color:#47431C;
+    color: white;
+}
 
