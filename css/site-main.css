@@ -13,7 +13,7 @@ header {
     height: 300px;
 }
 
-#header-container{
+#header-container {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
@@ -99,7 +99,7 @@ a:focus {
 }
 
 button {
-    font-family: 'Regola',sans-serif;
+    font-family: 'Regola', sans-serif;
     padding: 1rem;
 
     margin: 1rem;
@@ -114,7 +114,6 @@ button {
 button:hover,
 button:focus,
 button:active {
-    background-color:#47431C;
+    background-color: #47431C;
     color: white;
 }
-

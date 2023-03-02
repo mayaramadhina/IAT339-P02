@@ -1,0 +1,13 @@
+.column {
+flex: 50%;
+width: 50%;
+}
+
+
+.row {
+display: flex;
+}
+
+.main-img{
+    width: 30rem;
+}
