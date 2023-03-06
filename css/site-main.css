@@ -1,5 +1,5 @@
 body {
-    font-family: 'AvenirLt', sans-serif;
+    font-family: 'avenirlight', sans-serif;
     font-weight: lighter;
     color: rgb(60, 66, 69);
 }
@@ -23,7 +23,7 @@ header {
     margin-right: 2rem; */
 }
 
-#header-about{
+#header-about {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
@@ -37,33 +37,38 @@ header {
     margin: 2rem;
 }
 
+footer {
+    background-color: rgb(242, 239, 234);
+    height: 5rem;
+}
+
 h1 {
-    font-family: 'RegolaB', sans-serif;
+    font-family: 'regola_pro_sbook', sans-serif;
     font-size: xx-large;
     color: #606721;
 }
 
 h2 {
-    font-family: 'RegolaB', sans-serif;
+    font-family: 'regola_pro_sbook', sans-serif;
     font-size: large;
     color: #606721;
 }
 
 h3 {
-    font-family: 'AvenirRoman', sans-serif;
+    font-family: 'regola_pro_sbook', sans-serif;
     font-size: medium;
     color: #2A372A;
 }
 
 h4 {
-    font-family: 'AvenirLightOb', sans-serif;
+    font-family: 'avenirlight_oblique', sans-serif;
     font-size: medium;
     color: #AEABA0;
 }
 
 nav {
     display: inline-block;
-    font-family: 'Regola', sans-serif;
+    font-family: 'regola_pro_slight', sans-serif;
     display: flex;
     flex-direction: row;
     justify-content: right;
@@ -109,9 +114,8 @@ a:focus {
 }
 
 button {
-    font-family: 'Regola', sans-serif;
+    font-family: 'regola_pro_slight', sans-serif;
     padding: 1rem;
-
     margin: 1rem;
     border: 1.4px solid #DCD3C3;
     border-radius: 0.3rem;
@@ -119,6 +123,7 @@ button {
     background-color: white;
     text-decoration: none;
     transition-duration: 0.4s;
+    font-size: smaller;
 }
 
 button:hover,
@@ -131,26 +136,26 @@ button:active {
 .bg {
     /* The image used */
     background-image: url('../img/aboutBG.jpg');
-  
+
     /* Full height */
     width: 100%;
     height: 1633px;
-  
+
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+}
 
 textarea {
     vertical-align: top;
-  }
+}
 
 input {
     display: block;
     margin-bottom: 1em;
 }
 
-label{
+label {
     margin-top: 5rem;
 }
