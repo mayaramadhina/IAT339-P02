@@ -48,22 +48,26 @@ h1 {
     color: #606721;
 }
 
-h2 {
+h2 { 
     font-family: 'regola_pro_sbook', sans-serif;
-    font-size: large;
+    font-size: xx-large;
     color: #606721;
 }
 
 h3 {
     font-family: 'regola_pro_sbook', sans-serif;
     font-size: medium;
-    color: #2A372A;
+    /* color: #2A372A; */
+    color: #606721;
+    margin-bottom: 5rem;
+    margin-top: 3rem;
 }
 
 h4 {
-    font-family: 'avenirlight_oblique', sans-serif;
+    font-family: 'avenirlight', sans-serif;
     font-size: medium;
-    color: #AEABA0;
+    /* color: #AEABA0; */
+    color: #2A372A;
 }
 
 nav {
@@ -116,7 +120,7 @@ a:focus {
 button {
     font-family: 'regola_pro_slight', sans-serif;
     padding: 1rem;
-    margin: 1rem;
+    /* margin: 1rem; */
     border: 1.4px solid #DCD3C3;
     border-radius: 0.3rem;
     color: #2A372A;

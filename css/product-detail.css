@@ -1,13 +1,22 @@
 .column {
-flex: 50%;
-width: 50%;
+    flex: 50%;
+    width: 50%;
 }
-
 
 .row {
-display: flex;
+    display: flex;
 }
 
-.main-img{
-    width: 30rem;
+.main-img {
+    width: 100%;
+    min-width: 50%;
+    margin-left: -5rem;
+}
+
+.detail-description {
+    text-align: left;
+}
+
+p {
+    margin-top: 3rem;
 }
