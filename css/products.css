@@ -1,7 +1,7 @@
 .products-container {
     display: flex;
     flex-direction: row;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     /* justify-content: flex-start; */
 }
 
@@ -10,6 +10,15 @@
     margin: 0.3rem;
     background-color: rgb(249, 247, 246);
     border-radius: 0.2rem;
+  
+}
+
+.description {
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    text-align: center;
+
 }
 
 img {
@@ -17,3 +26,8 @@ img {
     border-radius: 0.2rem;
 }
 
+.price {
+    font-size: small;
+    font-family: 'avenirlight_oblique';
+    color: #AEABA0;
+}
