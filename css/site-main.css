@@ -20,16 +20,13 @@ header {
     align-items: baseline;
     justify-content: space-between;
     padding: 1rem;
-    /* margin-left: 2rem;
-    margin-right: 2rem; */
 }
 
 #header-about {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
-    /* margin-left: 2rem;
-    margin-right: 2rem; */
+    padding: 1rem;
 }
 
 #content {
