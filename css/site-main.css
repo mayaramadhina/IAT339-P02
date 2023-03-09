@@ -35,6 +35,16 @@ header {
     margin-left: 10rem;
 }
 
+#news {
+    padding: 1rem;
+    margin-left: 10rem;
+    margin-left: 10rem;
+}
+
+#news p{
+    margin-bottom: 3rem;
+}
+
 footer {
     background-color: rgb(242, 239, 234);
     height: 5rem;
