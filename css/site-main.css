@@ -11,6 +11,7 @@ header {
     height: 300px;
 }
 
+/* image source:https://saint-gaudens.org */
 #header-container {
     background-image: url('../img/flowerBG.png');
     height: 90px;
@@ -27,14 +28,14 @@ header {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
-    padding: 1rem;
     /* margin-left: 2rem;
     margin-right: 2rem; */
 }
 
 #content {
     padding: 1rem;
-    margin: 2rem;
+    margin-left: 10rem;
+    margin-left: 10rem;
 }
 
 footer {
@@ -56,6 +57,14 @@ h2 {
 }
 
 h3 {
+    font-family: 'avenirlight', sans-serif;
+    font-size: medium;
+    color: #606721;
+    /* margin-bottom:2rem; */
+    margin-top: 4rem;
+}
+
+#about h3 {
     font-family: 'regola_pro_sbook', sans-serif;
     font-size: medium;
     color: #606721;
@@ -162,6 +171,7 @@ button:active {
     color: white;
 }
 
+/* image source:https://saint-gaudens.org */
 .bg {
     /* The image used */
     background-image: url('../img/flowerBG.png');
@@ -176,6 +186,7 @@ button:active {
     background-size: cover;
 }
 
+/* image source:https://saint-gaudens.org */
 .bg-about {
     /* The image used */
     background-image: url('../img/womenBG.png');
@@ -201,6 +212,7 @@ input {
 
 label {
     margin-top: 5rem;
+    padding-top: 5rem;
 }
 
 .home-page {
