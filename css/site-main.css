@@ -59,9 +59,8 @@ h2 {
 h3 {
     font-family: 'regola_pro_sbook', sans-serif;
     font-size: medium;
-    /* color: #2A372A; */
     color: #606721;
-    margin-bottom: 5rem;
+    margin-bottom:5rem;
     margin-top: 3rem;
 }
 
@@ -79,6 +78,23 @@ h5 {
     text-align: center;
     margin-top: 1rem;
 }
+
+h6 {
+    font-family: 'regola_pro_sbook', sans-serif;
+    font-size: 3rem;
+    color: white;
+    text-align: left;
+    margin-top: 16rem;
+    margin-bottom: 12rem;
+}
+
+#about p {
+    max-width: 30rem;
+    color: #3E3E3E;
+    margin-top: 1.5em;
+    padding-bottom: 8rem;
+}
+
 
 nav {
     display: inline-block;
