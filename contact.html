@@ -20,7 +20,8 @@
 <body>
     <header>
         <div id="header-container">
-            <h1>rooted.</h1>
+            <a href="home.html">
+            <h1>rooted.</h1></a>
             <nav>
                 <a href="about.html" class="nav-main-item">about</a>
                 <a href="products.html" class="nav-main-item">products</a>
@@ -32,27 +33,32 @@
             </nav>
         </div>
     </header>
-
+    
     <section id="content">
-        <h1>Contact Us</h1>
-        <form>
-                <label>
-                    Name <input type="name" name="name" placeholder="enter name">
-                </label>
-                <label>
-                    Email <input type="email" name="email" placeholder="enter email">
-                </label>
-                <label for="subject">Message</label>
-                <textarea id="message" name="message" placeholder="Write something.."></textarea><br>
+        <h2>Contact us</h2>
 
-                <button name="submit">
-                    Submit
-                </button>
-        </form>
+        <fieldset class="payment-form-container">
+            <!-- <legend>Payment Form</legend> -->
+
+            <label>
+                Name <input type="name" name="name" placeholder="enter name">
+            </label>
+            <label>
+                Email <input type="email" name="email" placeholder="enter email">
+            </label>
+            <label for="subject">Message</label><br>
+            <textarea id="message" name="message" placeholder="Write something.."></textarea><br><br>
+
+            <button name="submit">
+                Submit message
+            </button>
+
+        </fieldset>
+
 
         
-
     </section>
+
 
 
 </body>
