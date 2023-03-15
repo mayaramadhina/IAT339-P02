@@ -1,16 +1,16 @@
 .products-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    /* justify-content: flex-start; */
+    overflow: auto;
+    white-space: nowrap;
+
+
 }
 
 .product-item {
+    display: inline-block;
     width: 10rem;
-    margin: 0.3rem;
-    background-color: rgb(249, 247, 246);
-    border-radius: 0.2rem;
-  
+    white-space: normal;
+
+
 }
 
 .description {
@@ -24,6 +24,7 @@
 img {
     width: 10rem;
     border-radius: 0.2rem;
+
 }
 
 .price {
