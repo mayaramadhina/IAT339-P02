@@ -10,17 +10,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/products.css">
     <link rel="stylesheet" href="css/site-main.css">
-    <link rel="stylesheet" href="css/about.css">
-    <link rel="stylesheet" href="css/products.css">
+    <link rel="stylesheet" href="css/contact.css">
+
 
 </head>
 
 <body>
-    <header>
+    <header class="contact-header">
         <div id="header-container">
-            <a href="home.html">
+            <a href="home.html" >
             <h1>rooted.</h1></a>
             <nav>
                 <a href="about.html" class="nav-main-item">about</a>
@@ -34,28 +33,22 @@
         </div>
     </header>
     
-    <section id="content">
+    <section id="contact">
+        <h3>Have questions or feedback?</h3>
         <h2>Contact us</h2>
 
-        <fieldset class="payment-form-container">
-            <!-- <legend>Payment Form</legend> -->
-
             <label>
-                Name <input type="name" name="name" placeholder="enter name">
+                Name <input type="name" name="name">
             </label>
             <label>
-                Email <input type="email" name="email" placeholder="enter email">
+                Email <input type="email" name="email">
             </label>
             <label for="subject">Message</label><br>
-            <textarea id="message" name="message" placeholder="Write something.."></textarea><br><br>
+            <textarea id="message" name="message"></textarea><br><br>
 
             <button name="submit">
                 Submit message
             </button>
-
-        </fieldset>
-
-
         
     </section>
 
