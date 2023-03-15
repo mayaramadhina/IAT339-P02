@@ -11,6 +11,15 @@ header {
     height: 15rem;
 }
 
+#header-nobg {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    height: 15rem;
+
+    padding: 1rem;
+}
+
 /* image source:https://saint-gaudens.org */
 #header-container {
     background-image: url('../img/flowerBG.png');
@@ -157,6 +166,11 @@ a:hover,
 a:focus {
     color: #606721;
     text-decoration: underline;
+}
+
+.logo a:hover, a:focus, a:active{
+    text-decoration: none;
+
 }
 
 button {
