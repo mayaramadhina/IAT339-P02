@@ -1,3 +1,26 @@
+#header-about {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+
+/* image source:https://saint-gaudens.org */
+.bg-about {
+    /* The image used */
+    background-image: url('../img/womenBG.png');
+
+    /* Full height */
+    width: 100%;
+    height: 700px;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #h1-about {
     color: #62707A;
     margin: 5rem;
@@ -7,3 +30,66 @@
     /* padding: 1rem; */
     margin-left: 12em;
 }
+
+.about .column p {
+    max-width: 30rem;
+    color: #3E3E3E;
+    /* margin-top: 1.5em; */
+    padding-bottom: 8rem;
+    margin-left: 3rem;
+
+}
+
+.about .column h6 {
+    font-family: 'regola_pro_sbook', sans-serif;
+    font-size: 3rem;
+    color: #606721;
+    text-align: left;
+    margin-left: 3rem;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+}
+
+#about h6 {
+  font-family: 'regola_pro_sbook', sans-serif;
+  font-size: 3rem;
+  color: white;
+  text-align: left;
+  margin-top: 16rem;
+  /* margin-bottom: 12rem; */
+}
+
+.about h3 {
+    font-family: 'regola_pro_sbook', sans-serif;
+    font-size: medium;
+    color: #606721;
+    margin-bottom:2rem;
+    margin-left: 3rem;
+}
+
+.about button{
+  margin-top: 5rem;
+}
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+/* column to display image and text side by side */
+  .column {
+    float: left;
+    width: 50%;
+    /* padding: 50px; */
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+  img{
+    width: 80%;
+    margin-top: 2rem;
+  }
