@@ -1,16 +1,13 @@
 .products-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    /* justify-content: flex-start; */
+    overflow: auto;
+    white-space: nowrap;
+    width: 93%;
 }
 
 .product-item {
+    display: inline-block;
     width: 10rem;
-    margin: 0.3rem;
-    background-color: rgb(249, 247, 246);
-    border-radius: 0.2rem;
-  
+    white-space: normal;
 }
 
 .description {
@@ -18,7 +15,6 @@
     padding-right: 1rem;
     padding-left: 1rem;
     text-align: center;
-
 }
 
 img {
@@ -31,3 +27,4 @@ img {
     font-family: 'avenirlight_oblique';
     color: #AEABA0;
 }
+
