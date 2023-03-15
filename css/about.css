@@ -59,6 +59,12 @@
   /* margin-bottom: 12rem; */
 }
 
+#about a:active,
+a:hover,
+a:focus {
+    color: white;
+    text-decoration: underline;
+}
 .about h3 {
     font-family: 'regola_pro_sbook', sans-serif;
     font-size: medium;
