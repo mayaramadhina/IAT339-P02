@@ -37,16 +37,6 @@ header {
     margin-left: 10rem;
 }
 
-#news {
-    padding: 1rem;
-    margin-left: 10rem;
-    margin-left: 10rem;
-}
-
-#news p{
-    margin-bottom: 3rem;
-}
-
 footer {
     background-color: rgb(242, 239, 234);
     height: 5rem;
@@ -85,7 +75,6 @@ h3 {
 h4 {
     font-family: 'avenirlight', sans-serif;
     font-size: medium;
-    /* color: #AEABA0; */
     color: #2A372A;
 }
 
@@ -94,7 +83,7 @@ h5 {
     font-size: 5rem;
     color: white;
     text-align: center;
-    margin-top: 1rem;
+    margin-top: 4.5rem;
 }
 
 h6 {
@@ -239,10 +228,6 @@ textarea {
     border: 1px solid #979797;
     border-radius: 3px;
     resize:none;
-    /* padding:15px;
-    border-radius:15px;
-    border:0;
-    box-shadow:4px 4px 10px rgba(0,0,0,0.06);*/
   }
 
 label {
