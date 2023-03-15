@@ -8,7 +8,7 @@ header {
     font-weight: lighter;
     /* background-repeat: no-repeat; */
     width: 100%;
-    height: 300px;
+    height: 15rem;
 }
 
 /* image source:https://saint-gaudens.org */
@@ -52,10 +52,18 @@ h1 {
 
 h2 { 
     font-family: 'regola_pro_sbook', sans-serif;
-    font-size: 3rem;
+    font-size: 2rem;
     color: #606721;
 }
 
+h2:after
+{
+    content:' ';
+    display:block;
+    margin-top: 1rem;
+    border:0.9px solid #47431C;
+    width: 94%;
+}
 h3 {
     font-family: 'avenirlight', sans-serif;
     font-size: medium;
@@ -100,6 +108,7 @@ nav {
     border-radius: 6px;
     padding: 0.7rem;
 }
+
 
 .nav-home{
     display: inline-block;
@@ -190,10 +199,37 @@ textarea {
     vertical-align: top;
 }
 
-input {
+input{
     display: block;
-    margin-bottom: 1em;
+
+    margin-bottom: 1.5rem;
+    width: 30%;
+    background-color: #FBFBFB;
+    border: 1px solid #979797;
+    border-radius: 3px;
+    
+    padding: 0.6rem;
 }
+input :hover, :focus, :active{
+    outline: none;
+}
+
+
+textarea {
+    margin-bottom: 1.5rem;
+    padding: 0.6rem;
+
+    width: 30%;
+    height:100px;
+    background-color: #FBFBFB;
+    border: 1px solid #979797;
+    border-radius: 3px;
+    resize:none;
+    /* padding:15px;
+    border-radius:15px;
+    border:0;
+    box-shadow:4px 4px 10px rgba(0,0,0,0.06);*/
+  }
 
 label {
     margin-top: 5rem;
@@ -205,10 +241,3 @@ label {
     justify-content: center;
     align-items: center;
 }
-
-/* .home-page button:hover,
-button:focus,
-button:active {
-    background-color:white;
-    color: white;
-} */
