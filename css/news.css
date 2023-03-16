@@ -4,6 +4,13 @@
     margin-left: 10rem;
 }
 
+#news a:active,
+a:hover,
+a:focus {
+    color: white;
+    text-decoration: underline;
+}
+
 .container{
     width: 100%;
     /* border: 1px solid black; */
@@ -78,4 +85,33 @@
       grid-template-columns: 1fr 1fr 1fr 1fr;
       grid-template-rows: auto;
     }
+  }
+
+
+  .news {
+    padding: 1rem;
+    margin-left: 10rem;
+    margin-left: 10rem;
+  }
+
+  .news img{
+    margin-top: -2rem;
+    width: 94%;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+
+  .news .description p{
+    margin-left: 0rem;
+  }
+
+  .news p {
+    max-width: 50%;
+    color: #3E3E3E;
+    padding-bottom: 3rem;
+  
+  }
+
+  .news button{
+    margin-top: 0%;
   }
