@@ -33,58 +33,51 @@
         </div>
     </header>
 
-    <section id="content">
-        <h2>Payment Information</h2>
-
-        <fieldset class="payment-form-container">
-            <!-- <legend>Payment Form</legend> -->
-            <label>
-                Name on Card:
-                <input type="text" name="card-name">
-            </label>
-
-            <label>
-                Card Number:
-                <input type="text" name="card-number">
-            </label>
-
-            <label>
-                Exp. Date:
-                <input type="date" name="date">
-            </label>
-
-            <label>
-                CSC:
-                <input type="text" name="number">
-            </label>
-
-            <div class="payment-method-container">
-                <label class="radio-button-container">Mastercard
-                    <input type="radio" name="card-type" checked>
-                </label>
-
-                <label class="radio-button-container">Visa
-                    <input type="radio" name="card-type">
-                </label>
-
-                <label class="radio-button-container">Debit
-                    <input type="radio" name="card-type">
-                </label>
-
-                <label class="radio-button-container">PayPal
-                    <input type="radio" name="card-type">
-                </label>
-            </div>
-
-            <button name="submit">
-                <a href="payment-submitted.html">Submit Payment</a>
-            </button>
-
-        </fieldset>
-
-
+    
+    <section id="payment">
+        <h2>Checkout</h2>
+        <p>Fill the following information below to proceed with your orders.</p>
+    
+        <h3>Payment</h3>
 
     </section>
+
+    <div class="container">
+
+        <section id="payment">
+
+                <label for="payment">Payment Method</label><br><br>
+                <label class="container">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Credit Card
+                <input type="radio" checked="checked" name="radio">
+                <span class="checkmark"></span>
+                </label>
+                <label class="container">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Paypal
+                <input type="radio" name="radio">
+                <span class="checkmark"></span>
+                </label><br>
+            
+                <label>
+                    Name on Card<input type="text" name="card">
+                </label>
+                <label>
+                    Card Number<input type="tel" name="number">
+                </label>
+                <label>
+                Expiry Date<input type="month" name="date">
+                </label>
+                <label for="subject">Biling Adress</label><br>
+                <textarea id="biling" name="biling"></textarea><br><br>
+        </section>
+    </div>
+
+    <section id="payment">
+        <button name="submit">
+            <a href="payment-submitted.html">Confirm Order & Pay</a>
+        </button>
+    </section>
+
+
+
 
     <footer id="footer">
         <div class=”footer-content” >
