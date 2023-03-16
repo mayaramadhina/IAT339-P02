@@ -43,20 +43,20 @@ h1 {
     color: #606721;
 }
 
-h2 { 
+h2 {
     font-family: 'regola_pro_sbook', sans-serif;
     font-size: 2rem;
     color: #606721;
 }
 
-h2:after
-{
-    content:' ';
-    display:block;
+h2:after {
+    content: ' ';
+    display: block;
     margin-top: 1rem;
-    border:0.9px solid #47431C;
+    border: 0.9px solid #47431C;
     width: 94%;
 }
+
 h3 {
     font-family: 'avenirlight', sans-serif;
     font-size: medium;
@@ -102,7 +102,7 @@ nav {
 }
 
 
-.nav-home{
+.nav-home {
     display: inline-block;
     font-family: 'regola_pro_slight', sans-serif;
     display: flex;
@@ -151,7 +151,9 @@ a:focus {
     text-decoration: underline;
 }
 
-.logo a:hover, a:focus, a:active{
+.logo a:hover,
+a:focus,
+a:active {
     text-decoration: none;
 }
 
@@ -195,7 +197,7 @@ textarea {
     vertical-align: top;
 }
 
-input{
+input {
     display: block;
 
     margin-bottom: 1.5rem;
@@ -203,10 +205,13 @@ input{
     background-color: #FBFBFB;
     border: 1px solid #979797;
     border-radius: 3px;
-    
+
     padding: 0.6rem;
 }
-input :hover, :focus, :active{
+
+input :hover,
+:focus,
+:active {
     outline: none;
 }
 
@@ -216,12 +221,12 @@ textarea {
     padding: 0.6rem;
 
     width: 30%;
-    height:100px;
+    height: 100px;
     background-color: #FBFBFB;
     border: 1px solid #979797;
     border-radius: 3px;
-    resize:none;
-  }
+    resize: none;
+}
 
 label {
     margin-top: 5rem;
@@ -234,22 +239,22 @@ label {
     align-items: center;
 }
 
-footer{
+footer {
     display: flex;
-    background-color:#F2EFEA;
+    background-color: #F2EFEA;
     height: auto;
     margin-top: 5rem;
     padding-left: 9rem;
 }
 
-.footer-content{
+.footer-content {
     justify-content: center;
     align-items: center;
     flex-direction: column;
     margin: 10rem;
 }
 
-#footer a{
+#footer a {
     display: inline-block;
     padding: 2rem;
     color: #2A372A;
@@ -257,25 +262,61 @@ footer{
 }
 
 
-#footer 
-a:hover,
+#footer a:hover,
 a:focus {
     color: #606721;
     background-color: transparent;
     text-decoration: underline;
 }
 
-#footer 
-a:visited {
+#footer a:visited {
     color: #606721;
     background-color: transparent;
     text-decoration: none;
 }
 
-#footer h4{
+#footer h4 {
     color: #2A372A;
 }
 
-.bg-about #footer{
+.bg-about #footer {
     margin-top: 70rem;
+}
+
+
+@media screen and (max-width: 800px) {
+    #header-container {
+        display: flex;
+        flex-direction: column wrap;
+        flex-wrap: wrap;
+        flex-flow: wrap;
+        justify-content: space-around;
+        align-items: center;
+
+
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column wrap;
+        flex-wrap: wrap;
+        flex-flow: wrap;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    nav a {
+        padding: 10px;
+    }
+
+    h1 {
+        color: #F2EFEA;
+    }
+
+
+
+
+
+
 }
