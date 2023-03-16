@@ -235,15 +235,14 @@ label {
 }
 
 footer{
+    display: flex;
     background-color:#F2EFEA;
     height: auto;
-    width: 100%;
     margin-top: 5rem;
-    padding-left: 8rem;
+    padding-left: 9rem;
 }
 
 .footer-content{
-    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -258,12 +257,19 @@ footer{
 }
 
 
-#footer a:visited,
+#footer 
 a:hover,
 a:focus {
     color: #606721;
     background-color: transparent;
     text-decoration: underline;
+}
+
+#footer 
+a:visited {
+    color: #606721;
+    background-color: transparent;
+    text-decoration: none;
 }
 
 #footer h4{
