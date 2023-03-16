@@ -207,3 +207,24 @@ label {
     padding: 1rem;
     margin-top: 1rem;
 }
+
+.cart-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.cart-product-item{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+
+img{
+    width: 10rem;
+}

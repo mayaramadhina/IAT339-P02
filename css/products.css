@@ -2,12 +2,14 @@
     overflow: auto;
     white-space: nowrap;
     width: 93%;
+ 
 }
 
 .product-item {
     display: inline-block;
     width: 10rem;
     white-space: normal;
+    background-color: #F2EFEA;
 }
 
 .description {
