@@ -1,5 +1,5 @@
 body {
-    font-family: 'AvenirLt',sans-serif;
+    font-family: 'AvenirLt', sans-serif;
     font-weight: lighter;
     padding: 1rem;
     margin: 2rem;
@@ -15,40 +15,40 @@ header {
 }
 
 h1 {
-    font-family: 'RegolaB',sans-serif;
+    font-family: 'RegolaB', sans-serif;
     font-size: xx-large;
     color: #606721;
-  }
+}
 
 h2 {
-    font-family: 'RegolaB',sans-serif;
+    font-family: 'RegolaB', sans-serif;
     font-size: large;
     color: #606721;
-  }
+}
 
 h3 {
-    font-family: 'AvenirRoman',sans-serif;
+    font-family: 'AvenirRoman', sans-serif;
     font-size: medium;
     color: #2A372A;
-  }
+}
 
 h4 {
-    font-family: 'AvenirLightOb',sans-serif;
+    font-family: 'AvenirLightOb', sans-serif;
     font-size: medium;
     color: #AEABA0;
-  }
+}
 
-  #header-container{
+#header-container {
     display: flex;
     flex-direction: row;
     align-items: baseline;
     justify-content: space-between;
-  }
+}
 
 
 nav {
     display: inline-block;
-    font-family: 'Regola',sans-serif;
+    font-family: 'Regola', sans-serif;
     display: flex;
     flex-direction: row;
     justify-content: right;
@@ -102,7 +102,7 @@ a:focus {
 }
 
 button {
-    font-family: 'Regola',sans-serif;
+    font-family: 'Regola', sans-serif;
     padding: 1rem;
     margin: 1rem;
     border: 1.4px solid #DCD3C3;
@@ -116,7 +116,7 @@ button {
 button:hover,
 button:focus,
 button:active {
-    background-color:#47431C;
+    background-color: #47431C;
     color: white;
 }
 
@@ -131,7 +131,7 @@ p {
 }
 
 fieldset {
-    font-family: 'Regola',sans-serif;
+    font-family: 'Regola', sans-serif;
 
     display: flex;
     flex-direction: row;
@@ -207,7 +207,7 @@ label {
     width: 10%;
 }
 
-.border{
+.border {
     border: 1.3px solid rgb(60, 66, 69);
     border-radius: 3px;
     border-style: dashed;
@@ -215,23 +215,23 @@ label {
     margin-top: 1rem;
 }
 
-.cart-container{
+.cart-container {
     display: flex;
     flex-direction: column;
 }
 
-.cart-product-item{
+.cart-product-item {
     display: flex;
     flex-direction: row;
     margin-bottom: 2rem;
 }
 
-.column{
+.column {
     display: flex;
     flex-direction: column;
     margin-left: 2rem;
 }
 
-img{
+img {
     width: 10rem;
 }
